@@ -1,0 +1,67 @@
+body{
+    background: green;
+    align-content: center;
+}
+
+#card{
+    background: white;
+    width: 250px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+#num{
+	font-size: 80px;
+	text-align: center;
+	line-height: 226px;
+}
+
+#topsuit{
+    font-size: 48px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+#bottomsuit{
+    font-size: 48px;
+    padding-top: 5px;
+    padding-left: 10px;
+    transform: rotate(180deg);
+}
+
+#result{
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	text-align: center;
+}
+
+.black{
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+.Clubs:before{
+    content: "\2663";
+}
+
+.Diamonds:before{
+    content: "\2666";
+}
+
+.Hearts:before{
+    content: "\2665";
+}
+
+.Spades:before{
+    content: "\2660";
+}
